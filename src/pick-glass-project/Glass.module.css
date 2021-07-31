@@ -1,0 +1,14 @@
+.textOrange {
+    color: orange;
+}
+
+.glass {
+    position: absolute;
+    top: 26%;
+    left: 37.5%;
+}
+
+.mainModel {
+    position: relative;
+    z-index: -1;
+}
