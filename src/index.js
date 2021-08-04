@@ -7,6 +7,8 @@ import "jquery/dist/jquery";
 import "popper.js/dist/umd/popper";
 import "bootstrap/dist/js/bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
+import "js-cloudimage-360-view/dist/index";
+import "js-cloudimage-360-view/dist/ci360.utils";
 
 ReactDOM.render(
     <React.StrictMode>

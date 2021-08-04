@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import "./App.css";
 import CarApp from "./choose-car-advance/CarApp";
 import GlassApp from "./pick-glass-project/GlassApp";

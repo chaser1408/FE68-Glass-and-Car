@@ -1,25 +1,26 @@
 /* eslint-disable jsx-a11y/alt-text */
 import React, { Component } from "react";
 import style from "./Car.module.css";
-import Color from "./Color";
+import Wheel from "./Wheel";
 
-export default class PickColor extends Component {
+export default class WheelCar extends Component {
     render() {
-        const { dataInfo, handleChangeColor } = this.props;
+        const { dataWheel, handleChangeWheel } = this.props;
 
         return (
             <div>
-                <div className="card mb-5" style={{}}>
+                <div className="card mb-5 mt-3" style={{}}>
                     <div className={`card-header ${style.price} text-left`}>
-                        Exterior Color
+                        Wheels
                     </div>
                     <ul className="list-group list-group-flush mt-2 mb-2">
-                        {dataInfo.map((carInfo, idx) => {
+                        {dataWheel.map((carWheel, idx) => {
+                            // const { img, title, price } = carWheel;
                             return (
-                                <Color
+                                <Wheel
                                     key={idx}
-                                    carInfo={carInfo}
-                                    handleChangeColor={handleChangeColor}
+                                    carWheel={carWheel}
+                                    handleChangeWheel={handleChangeWheel}
                                 />
                             );
                         })}

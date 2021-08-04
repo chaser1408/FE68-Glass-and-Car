@@ -57,3 +57,12 @@ p {
     color: #2198dc;
     font-size: 15px;
 }
+
+.featureHead {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.featureText {
+    font-weight: normal;
+}
